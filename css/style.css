@@ -110,10 +110,11 @@ main {
     height: 20%;
 }
 
-footer, ul {
+footer,
+ul {
     display: flex;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-between;
     list-style: none;
     background-color: #4B93BF;
     padding: 0 4rem;
@@ -121,7 +122,6 @@ footer, ul {
 
 .redesSociais {
     width: 70%;
-
 }
 
 .nomes {
