@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter:wght@300&family=Lily+Script+One&family=Montserrat:wght@300;400;500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+a {
+    color: #0F468C;
+}
+
+.bloco-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: #4B93BF;
+    color: #fff;
+    height: 20vh;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.logo-text {
+    width: 10%;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.logo-text:hover {
+    color: #c9c9c9;
+    transition: 0.2s;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.items-menu {
+    font-size: 26px;
+    transition: 0.2s;
+}
+
+.items-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.items-menu a:hover {
+    color: #c9c9c9;
+    transition: 0.2s;
+}
+
+main {
+    display: flex;
+    background-color: #E4EEF1;
+}
+
+.info-inverno {
+    width: 60%;
+    text-align: center;
+    font-size: 22px;
+    color: #0F468C;
+}
+
+.florestaInverno {
+    width: 38%;
+}
+
+.info-inverno,
+.florestaInverno {
+    padding: 2rem 5rem;
+}
+
+.secaoInvernoBrasil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4B93BF;
+    height: 15rem;
+}
+
+.infoInvernoBrasil {
+    font-size: 28px;
+    color: #fff;
+}
+
+.ursosPolares {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E4EEF1;
+    padding: 1rem;
+}
+
+.ursosPolares img {
+    width: 20%;
+    height: 20%;
+}
+
+footer, ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    list-style: none;
+    background-color: #4B93BF;
+    padding: 0 4rem;
+}
+
+.redesSociais {
+    width: 70%;
+
+}
+
+.nomes {
+    flex-direction: column;
+}
