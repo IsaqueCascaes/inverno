@@ -110,18 +110,36 @@ main {
     height: 20%;
 }
 
-footer,
-ul {
+footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
     background-color: #4B93BF;
-    padding: 0 4rem;
+    justify-content: space-evenly;
+}
+
+.Redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    width: 5%;
+}
+
+.Redes li {
+    padding: 0.3rem;
+}
+
+.linkedin {
+    width: 3.5rem;
+}
+
+.github {
+    width: 5rem;
 }
 
 .redesSociais {
-    width: 70%;
+    width: 3rem;
 }
 
 .nomes {
